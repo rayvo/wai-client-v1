@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Ei tyyppiä</item>
+        <item>Tuote</item>
+        <item>Logo</item>
+        <item>Taideteos</item>
+        <item>Yritys</item>
+        <item>Maamerkki</item>
+        <item>Teksti</item>
+        <item>Muu</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Vauvojen tarvikkeet</item>
+        <item>Juomat</item>
+        <item>Vaatteet</item>
+        <item>Asusteet</item>
+        <item>Sisustus</item>
+        <item>Elektroniikka</item>
+        <item>Huonekalut</item>
+        <item>Käsilaukut</item>
+        <item>Korut</item>
+        <item>Keittiö ja ruokailu</item>
+        <item>Matkatavarat</item>
+        <item>Soittimet</item>
+        <item>Toimistotarvikkeet</item>
+        <item>Kasvit ja kukat</item>
+        <item>Veistokset</item>
+        <item>Kengät</item>
+        <item>Urheiluvälineet</item>
+        <item>Työkalut</item>
+        <item>Lelut ja pelit</item>
+        <item>Kellot</item>
+    </string-array>
+</resources>

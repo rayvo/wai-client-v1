@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Нема типа</item>
+        <item>Производ</item>
+        <item>Логотип</item>
+        <item>Уметност</item>
+        <item>Предузеће</item>
+        <item>Оријентир</item>
+        <item>Текст</item>
+        <item>Друго</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Опрема за бебе</item>
+        <item>Напици</item>
+        <item>Одећа</item>
+        <item>Модни детаљи</item>
+        <item>Декор</item>
+        <item>Електроника</item>
+        <item>Намештај</item>
+        <item>Ташне</item>
+        <item>Накит</item>
+        <item>Кухиња и трпезарија</item>
+        <item>Пртљаг</item>
+        <item>Музички инструменти</item>
+        <item>Канцеларијски материјал</item>
+        <item>Биљке и цвеће</item>
+        <item>Скулптуре</item>
+        <item>Ципеле</item>
+        <item>Спортска опрема</item>
+        <item>Алат</item>
+        <item>Играчке и игре</item>
+        <item>Сатови</item>
+    </string-array>
+</resources>

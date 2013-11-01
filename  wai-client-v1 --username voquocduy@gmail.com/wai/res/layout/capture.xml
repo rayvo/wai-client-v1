@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/capture_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.unveil.ui.CameraWrappingLayout android:id="@id/camera_wrapper_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.unveil.sensors.CameraManager android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.apps.unveil.ui.GridOverlayView android:id="@id/capture_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/camera_overlay" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.apps.unveil.ui.RegionSelectorView android:id="@id/region_selector" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.apps.unveil.ui.CameraWrappingLayout>
+    <FrameLayout android:id="@id/progress_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/capture_controls" />
+    <com.google.android.apps.unveil.nonstop.DebugView android:id="@id/nonstop_debug_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

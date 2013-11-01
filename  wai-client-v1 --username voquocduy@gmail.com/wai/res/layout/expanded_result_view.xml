@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:unveil="http://schemas.android.com/apk/res/com.google.android.apps.unveil">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/thumbnail_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:orientation="vertical" android:paddingRight="4.0dip" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textColor="#ff888888" android:id="@id/result_type" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff444444" android:id="@id/result_title" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff444444" android:autoLink="web" android:id="@id/result_description" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <include layout="@layout/book_result" />
+                        <include layout="@layout/product_result" />
+                        <include layout="@layout/translation_result" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/fact_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:gravity="top" android:id="@id/flag_withdraw_button" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" />
+                </LinearLayout>
+                <include android:id="@id/contributor_information" layout="@layout/expanded_result_contributor_information" />
+                <ImageView android:layout_gravity="center" android:id="@id/large_image_view" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" android:maxHeight="200.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/button_layout" android:background="#ffffffff" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:gravity="center" android:id="@id/share_label" android:background="@drawable/widgets_gray_button_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/share_result_label" android:layout_weight="1.0" />
+                <Button android:gravity="center" android:id="@id/more_like_this_label" android:background="@drawable/widgets_gray_button_background" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/more_like_this_label" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="18.0dip" android:id="@id/similar_results_label" android:background="@drawable/gray_header" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/similar_items_label" />
+            <com.google.android.apps.unveil.ui.NonScrollingListView android:id="@id/similar_results" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" unveil:verticalSpacing="15.0dip" />
+            <WebView android:id="@id/web_view" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center" android:id="@id/web_view_progress_indicator" android:background="@drawable/rotating_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

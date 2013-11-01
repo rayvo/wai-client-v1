@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Typ nebyl určen</item>
+        <item>Produkt</item>
+        <item>Logo</item>
+        <item>Umění</item>
+        <item>Obchod</item>
+        <item>Pamětihodnost</item>
+        <item>Text</item>
+        <item>Jiné</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Doplňky pro děti</item>
+        <item>Nápoje</item>
+        <item>Oblečení</item>
+        <item>Oděvní doplňky</item>
+        <item>Dekorace</item>
+        <item>Elektronika</item>
+        <item>Nábytek</item>
+        <item>Kabelky</item>
+        <item>Klenoty</item>
+        <item>Kuchyně a jídelna</item>
+        <item>Zavazadla</item>
+        <item>Hudební nástroje</item>
+        <item>Kancelářské potřeby</item>
+        <item>Rostliny a květiny</item>
+        <item>Sochy</item>
+        <item>Obuv</item>
+        <item>Sportovní náčiní</item>
+        <item>Nářadí</item>
+        <item>Hračky a hry</item>
+        <item>Hodinky</item>
+    </string-array>
+</resources>

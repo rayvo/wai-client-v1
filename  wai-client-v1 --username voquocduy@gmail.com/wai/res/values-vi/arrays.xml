@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Chưa chọn loại nào</item>
+        <item>Sản phẩm</item>
+        <item>Biểu trưng</item>
+        <item>Nghệ thuật</item>
+        <item>Doanh nghiệp</item>
+        <item>Mốc</item>
+        <item>Văn bản</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Phụ kiện trẻ em</item>
+        <item>Đồ uống</item>
+        <item>Quần áo</item>
+        <item>Phụ kiện quần áo</item>
+        <item>Trang trí</item>
+        <item>Điện tử</item>
+        <item>Nội thất</item>
+        <item>Túi xách</item>
+        <item>Đồ trang sức</item>
+        <item>Bếp và phòng ăn</item>
+        <item>Hành lý</item>
+        <item>Nhạc cụ</item>
+        <item>Văn phòng phẩm</item>
+        <item>Cây và hoa</item>
+        <item>Điêu khắc</item>
+        <item>Giày</item>
+        <item>Thiết bị thể thao</item>
+        <item>Công cụ</item>
+        <item>Đồ chơi và trò chơi</item>
+        <item>Đồng hồ</item>
+    </string-array>
+</resources>

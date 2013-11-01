@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">بستن</string>
+    <string name="unsupported_language_title">پشتیبانی زبان</string>
+    <string name="continue_label">ادامه</string>
+    <string name="current_language_unsupported_message">Google Goggles هنوز به فارسی ترجمه نشده است.</string>
+</resources>

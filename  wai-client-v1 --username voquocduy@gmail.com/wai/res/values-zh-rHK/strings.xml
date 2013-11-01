@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">關閉</string>
+    <string name="unsupported_language_title">語言支援</string>
+    <string name="continue_label">繼續</string>
+    <string name="current_language_unsupported_message">尚未將 Google Goggles 翻譯為繁體中文。</string>
+</resources>

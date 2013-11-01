@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">Закрыць</string>
+    <string name="unsupported_language_title">Падтрымка мовы</string>
+    <string name="continue_label">Далей</string>
+    <string name="current_language_unsupported_message">Вашая мова: YOUR_LANGUAGE. Google Goggles яшчэ не перакладзены на яе.</string>
+</resources>

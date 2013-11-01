@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">बंद करें</string>
+    <string name="unsupported_language_title">भाषा समर्थन</string>
+    <string name="continue_label">जारी रखें</string>
+    <string name="current_language_unsupported_message">Google Goggles का अनुवाद अभी तक हिंदी में नहीं किया गया है.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/goggles_settings_screen_title">
+        <Preference android:title="@string/history_preference_title" android:key="@string/user_wants_history_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/save_to_sd_card_preference_title" android:key="@string/save_to_sd_card_key" android:summary="@string/save_to_sd_card_preference_summary" android:defaultValue="false" />
+        <Preference android:title="@string/background_goggle_detailed_settings_title" android:key="@string/background_goggle_detailed_settings_placeholder_key" />
+        <CheckBoxPreference android:title="@string/continuous_tts_settings_title" android:key="@string/continuous_tts_settings_key" android:summary="@string/continuous_tts_settings_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debug Settings" android:key="@string/debug_group_key">
+        <ListPreference android:entries="@array/frontend_domains" android:title="Select frontend" android:key="@string/frontend_domain_key" android:summary="Choose from a list of frontend domains." android:defaultValue="@string/default_frontend_domain" android:entryValues="@array/frontend_domains" />
+        <EditTextPreference android:capitalize="none" android:title="Custom frontend" android:key="@string/custom_frontend_domain_key" android:summary="Custom frontend, if not in the list." />
+        <CheckBoxPreference android:title="Continuous network indicator" android:key="@string/network_indicator_in_continuous_key" android:summary="Show network activity indicators on the continuous camera preview" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

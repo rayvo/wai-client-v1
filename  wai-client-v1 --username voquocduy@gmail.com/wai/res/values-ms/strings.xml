@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">Tutup</string>
+    <string name="unsupported_language_title">Sokongan Bahasa</string>
+    <string name="continue_label">Teruskan</string>
+    <string name="current_language_unsupported_message">Google Goggles belum lagi diterjemahkan ke dalam Bahasa Melayu.</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>タイプなし</item>
+        <item>製品</item>
+        <item>ロゴ</item>
+        <item>アート</item>
+        <item>ビジネス</item>
+        <item>ランドマーク</item>
+        <item>テキスト</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>ベビー用品</item>
+        <item>飲料</item>
+        <item>ファッション</item>
+        <item>ファッション小物</item>
+        <item>インテリア、エクステリア</item>
+        <item>電気製品</item>
+        <item>家具</item>
+        <item>ハンドバッグ</item>
+        <item>ジュエリー</item>
+        <item>キッチン、ダイニング</item>
+        <item>バッグ</item>
+        <item>楽器</item>
+        <item>事務用品</item>
+        <item>花、植物</item>
+        <item>彫刻</item>
+        <item>靴</item>
+        <item>スポーツ用品</item>
+        <item>ツール</item>
+        <item>おもちゃ、ゲーム</item>
+        <item>時計</item>
+    </string-array>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="199" android:versionName="1.9" android:installLocation="auto" package="com.google.android.apps.unveil"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.ah" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.OTHER_SERVICES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-feature android:name="android.hardware.location.network" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <application android:label="@string/app_name_icon" android:icon="@drawable/icon" android:name="com.google.android.apps.unveil.UnveilApplication">
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.AboutActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.WhatsNewActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/SherlockFullscreen" android:label="@string/app_name_icon" android:name="com.google.android.apps.unveil.CaptureActivity" android:launchMode="singleTop" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.google.android.apps.unveil.ACTION_TAKE_PHOTO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="zxing.appspot.com" android:path="/scan" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="www.google.com" android:path="/m/products/scan" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="www.google.co.uk" android:path="/m/products/scan" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/actionBarOverlay" android:name="com.google.android.apps.unveil.ContinuousActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:label="Tracking Test" android:icon="@drawable/target" android:name="com.google.android.apps.unveil.TrackingTestActivity" android:launchMode="singleTop" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:label="Tracking Test Launcher" android:icon="@drawable/target" android:name="com.google.android.apps.unveil.TrackingSequenceActivity" android:launchMode="singleTop" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/actionBarOverlay" android:label="@string/results_label" android:name="com.google.android.apps.unveil.ResultsActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/actionBarOverlay" android:label="@string/results_label" android:name="com.google.android.apps.unveil.EpicFailActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@style/Theme.Sherlock.Light" android:name="com.google.android.apps.unveil.PuggleResultsActivity" />
+        <activity android:theme="@style/Theme.Sherlock" android:label="@string/sent_to_goggles" android:icon="@drawable/icon" android:name="com.google.android.apps.unveil.SubmittedResultsActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/actionBarBlack" android:label="@string/app_name_icon" android:icon="@drawable/icon" android:name="com.google.android.apps.unveil.SearchHistoryActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+            <meta-data android:name="android.app.default_searchable" android:value="com.google.android.apps.unveil.SearchHistoryActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.MapHistoryActivity" android:configChanges="keyboardHidden|orientation">
+            <meta-data android:name="android.app.default_searchable" android:value="com.google.android.apps.unveil.SearchHistoryActivity" />
+        </activity>
+        <activity android:theme="@style/Theme.Sherlock.Light" android:name="com.google.android.apps.unveil.ContinuousFirstRunActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.TagImageActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.ShareActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/jpeg" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Sherlock.Light" android:label="@string/welcome_to_goggles" android:name="com.google.android.apps.unveil.WelcomeActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.TutorialActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock.Light" android:label="@string/tips_title" android:name="com.google.android.apps.unveil.TipsActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/SherlockFullscreen" android:name="com.google.android.apps.unveil.RunQueryActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.HistoryPreferenceActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.TagActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.NoteActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.google.android.apps.unveil.PreferencesActivity" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.service.BackgroundGogglesPreferencesActivity" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="com.google.android.apps.unveil.AttributionActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock.Light" android:name="com.google.android.apps.unveil.ExpandedResultsActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:theme="@style/Theme.Sherlock.Light" android:name="com.google.android.apps.unveil.ReportAbuseActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden" />
+        <activity android:theme="@style/Theme.Sherlock.Light" android:label="@string/search_from_camera_title" android:name="com.google.android.apps.unveil.SfCFirstRunActivity" />
+        <activity android:theme="@style/Theme.Sherlock.Light" android:label="@string/search_history_title" android:name="com.google.android.apps.unveil.SHFirstRunActivity" />
+        <activity android:theme="@style/Theme.Sherlock.Light" android:label="@string/location_warning_title" android:name="com.google.android.apps.unveil.LocationFirstRunActivity" />
+        <activity android:name="com.google.userfeedback.android.api.UserFeedbackActivity" />
+        <activity android:name="com.google.userfeedback.android.api.PreviewActivity" />
+        <activity android:name="com.google.userfeedback.android.api.ShowTextActivity" android:excludeFromRecents="true" />
+        <activity android:name="com.google.userfeedback.android.api.ShowStringListActivity" android:excludeFromRecents="true" />
+        <service android:name="com.google.userfeedback.android.api.SendUserFeedbackService" />
+        <receiver android:name="com.google.userfeedback.android.api.FeedbackConnectivityReceiver" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.google.android.apps.unveil.env.UnveilContentProvider" android:authorities="@string/unveil_content_provider_authority" />
+        <provider android:name="com.google.android.apps.unveil.history.SuggestionProvider" android:authorities="@string/suggestion_provider_authority" />
+        <receiver android:name="com.google.android.apps.unveil.ActivationReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.apps.unveil.ACTIVATE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.apps.unveil.service.PictureRequestService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.unveil.service.ENABLE_REQUEST" />
+                <action android:name="com.google.android.apps.unveil.service.POLL_REQUEST" />
+                <action android:name="com.google.android.apps.unveil.service.ON_SEEN_REQUEST" />
+                <action android:name="com.google.android.apps.unveil.service.DISABLE_REQUEST" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.google.android.apps.unveil.service.LaunchReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.camera.NEW_PICTURE" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="com.google.android.maps" />
+    </application>
+</manifest>

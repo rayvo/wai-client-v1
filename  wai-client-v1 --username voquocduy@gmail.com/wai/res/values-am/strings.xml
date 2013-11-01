@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">ዝጋ</string>
+    <string name="unsupported_language_title">የቋንቋ እገዛ</string>
+    <string name="continue_label">ቀጥል</string>
+    <string name="current_language_unsupported_message">የGoogle Goggles ወደ እርስዎ ቋንቋ ገና አልተተረጎመም።</string>
+</resources>

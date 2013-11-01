@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">Sule</string>
+    <string name="unsupported_language_title">Keele tugi</string>
+    <string name="continue_label">Jätka</string>
+    <string name="current_language_unsupported_message">Google Goggles ei ole veel eesti keelde tõlgitud.</string>
+</resources>

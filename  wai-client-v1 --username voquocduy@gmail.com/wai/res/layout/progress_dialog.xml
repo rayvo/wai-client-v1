@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.unveil.ui.rotating.RotatingLayout android:id="@id/rotating_progress_root" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:unveil="http://schemas.android.com/apk/res/com.google.android.apps.unveil">
+    <com.google.android.apps.unveil.ui.rotating.RotatingRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.google.android.apps.unveil.ui.rotating.RotatingLinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" unveil:padding_left="20.0dip" unveil:padding_right="20.0dip" unveil:padding_top="20.0dip" unveil:padding_bottom="20.0dip" unveil:rotating_orientation="horizontal" unveil:rotating_background="@drawable/popup_full_dark">
+            <com.google.android.apps.unveil.ui.rotating.RotatingLinearLayout android:layout_gravity="left|center" android:id="@id/rotating_progress_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" unveil:padding_top="5.0dip" unveil:padding_bottom="10.0dip" unveil:rotating_orientation="horizontal" unveil:rotating_background="@drawable/rotating_spinner" />
+            <com.google.android.apps.unveil.ui.rotating.RotatingTextView android:layout_gravity="left|center" android:id="@id/rotating_progress_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" unveil:padding_left="5.0dip" unveil:padding_top="5.0dip" unveil:padding_bottom="10.0dip" unveil:text_size="19.0dip" unveil:text_color="#ffffffff" unveil:text="" />
+        </com.google.android.apps.unveil.ui.rotating.RotatingLinearLayout>
+    </com.google.android.apps.unveil.ui.rotating.RotatingRelativeLayout>
+</com.google.android.apps.unveil.ui.rotating.RotatingLayout>

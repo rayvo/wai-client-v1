@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Client configuration">
+        <ListPreference android:entries="@array/launchable_activities" android:title="Launch activity" android:key="@string/launch_activity_key" android:summary="Choose from a list of launchable activities." android:defaultValue="SearchHistoryActivity" android:positiveButtonText="OK" android:entryValues="@array/launchable_activities" />
+        <EditTextPreference android:title="Previous version" android:key="@string/previous_version_key" android:summary="Set to 0 to force TutorialActivity to run." android:defaultValue="999" />
+        <CheckBoxPreference android:title="Target *_devel package" android:key="@string/use_devel_package_key" android:summary="Whether to target the com.google.android.apps.unveil package." android:defaultValue="true" />
+        <EditTextPreference android:title="Mock latitude" android:key="@string/mock_latitude_key" android:summary="Override the client latitude (set both)." android:defaultValue="" />
+        <EditTextPreference android:title="Mock longitude" android:key="@string/mock_longitude_key" android:summary="Override the client longitude (set both)." android:defaultValue="" />
+        <CheckBoxPreference android:title="Enable GL Preview" android:key="@string/glPreview_key" android:summary="Uses a GLES2 based preview mode for nicer animations in continuous mode. Toggle visibility with the search button." android:defaultValue="false" />
+        <CheckBoxPreference android:title="Enable local barcode scanning" android:key="@string/use_local_barcode_key" android:summary="Use the ZXing lib to detect barcodes locally." android:defaultValue="true" />
+        <CheckBoxPreference android:title="Use old IPv4 stack" android:key="@string/use_ipv4__key" android:summary="This is needed to run Goggles on emulators that don't support IPv6." android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="CameraOptions">
+        <ListPreference android:entries="@array/camera_proxy_titles" android:title="Select camera type" android:key="@string/camera_proxy_key" android:summary="Choose from a list of camera proxies" android:defaultValue="RealCamera" android:positiveButtonText="OK" android:entryValues="@array/camera_proxies" />
+        <ListPreference android:title="Select static image" android:key="@string/camera_static_image_key" android:summary="Choose from a list of built-in static images for StaticImageCamera" android:defaultValue="static_images/static_image_camera2" android:positiveButtonText="OK" />
+        <ListPreference android:title="Image sequence directory" android:key="@string/camera_image_sequence_dir_key" android:summary="Pick the directory to load images from for the image sequence camera." android:positiveButtonText="OK" />
+        <CheckBoxPreference android:title="Use Preview Frames" android:key="@string/preview_frame_key" android:summary="Use preview frames in single-shot mode" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Tracking test options">
+        <CheckBoxPreference android:title="Track groundtruth data." android:key="@string/use_groundtruth_key" android:summary="Track groundtruths boxes, rather than manually drawn ones." android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

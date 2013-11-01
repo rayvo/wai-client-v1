@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="highlight">#ffffc287</item>
+    <item type="drawable" name="capture_control_background_pressed">#a00099cc</item>
+    <item type="drawable" name="capture_control_background_highlighted">#a033b5e5</item>
+    <item type="drawable" name="capture_control_background_normal">#a0000000</item>
+    <item type="drawable" name="dark_background">#ff282828</item>
+</resources>

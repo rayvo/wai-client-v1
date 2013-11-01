@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/history" android:background="@color/dark_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/item_separator" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.google.android.apps.unveil.ui.history.UnveilMapView android:id="@id/mapview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="0umQMOWxMR7EaZmRMVZ95P5ukD4Amu74bXWIOyw" />
+</LinearLayout>

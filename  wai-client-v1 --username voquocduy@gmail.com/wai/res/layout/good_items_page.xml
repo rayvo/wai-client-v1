@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/good_items_grid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/good_items_top_row" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/books_and_dvds" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/books_and_dvds" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/landmarks" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/landmarks" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logos" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/logos" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/good_items_mid_row" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/contact_info" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_info" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/artwork" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/artwork" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/businesses" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/businesses" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/good_items_bot_row" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/products" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/products" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/barcodes" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/barcodes" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/text" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

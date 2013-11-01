@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/promoContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/goggles_doesnt_work_well_with" style="@style/promoSubHeader" />
+    <LinearLayout style="@style/promoPictureRow">
+        <LinearLayout style="@style/promoImageLayout">
+            <ImageView android:src="@drawable/animal" style="@style/promoImage" />
+            <TextView android:text="@string/animals" style="@style/promoImageLabel" />
+        </LinearLayout>
+        <LinearLayout style="@style/promoImageLayout">
+            <ImageView android:src="@drawable/furniture" style="@style/promoImage" />
+            <TextView android:text="@string/furniture" style="@style/promoImageLabel" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:text="@string/more_tips_and_tricks" style="@style/promoCallToAction" />
+</LinearLayout>

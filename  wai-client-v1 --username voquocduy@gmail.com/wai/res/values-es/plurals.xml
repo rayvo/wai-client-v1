@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="history_items_description">
+        <item quantity="other">%1$d entradas en el historial de búsqueda</item>
+        <item quantity="one">Una entrada en el historial de búsqueda</item>
+    </plurals>
+    <plurals name="history_items_description_with_query">
+        <item quantity="other">%1$d entradas en el historial de búsqueda que coincidan con la búsqueda %2$s</item>
+        <item quantity="one">Una entrada en el historial de búsqueda que coincide con la búsqueda %1$s</item>
+    </plurals>
+    <plurals name="results_for_query">
+        <item quantity="other">"%1$d resultados para &amp;lt;b>&amp;lt;font color='white'>'%2$s'&amp;lt;/font>&amp;lt;/b>"</item>
+        <item quantity="one">"Un resultado para &amp;lt;b>&amp;lt;font color='white'>'%1$s'&amp;lt;/font>&amp;lt;/b>"</item>
+    </plurals>
+    <plurals name="review_count_template">
+        <item quantity="other">%1$d opiniones</item>
+        <item quantity="one">%1$d opinión</item>
+    </plurals>
+    <plurals name="background_goggle_images_with_matches">
+        <item quantity="other">%1$d imágenes con resultados</item>
+    </plurals>
+    <plurals name="background_goggle_s_and_n_more_results">
+        <item quantity="other">%1$s y %2$d resultados más</item>
+        <item quantity="one">%1$s y un resultado más</item>
+    </plurals>
+    <plurals name="continuous_n_results_found">
+        <item quantity="other">%1$d resultados encontrados</item>
+        <item quantity="one">Un resultado encontrado</item>
+    </plurals>
+    <plurals name="n_results_found">
+        <item quantity="other">%1$d resultados</item>
+        <item quantity="one">Se ha encontrado un resultado.</item>
+    </plurals>
+</resources>

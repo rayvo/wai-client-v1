@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>بلا نوع</item>
+        <item>منتج</item>
+        <item>شعار</item>
+        <item>فنون</item>
+        <item>نشاط تجاري</item>
+        <item>مَعلم</item>
+        <item>نص</item>
+        <item>غير ذلك</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>إكسسوارات‬ الأطفال</item>
+        <item>مشروبات</item>
+        <item>ملابس</item>
+        <item>إكسسوارات الملابس</item>
+        <item>ديكور</item>
+        <item>أجهزة إلكترونية</item>
+        <item>أثاث</item>
+        <item>حقائب اليد</item>
+        <item>مجوهرات</item>
+        <item>المطبخ والطعام</item>
+        <item>حقائب</item>
+        <item>آلات موسيقية</item>
+        <item>مستلزمات المكاتب</item>
+        <item>النباتات والزهور</item>
+        <item>منحوتات</item>
+        <item>أحذية</item>
+        <item>معدات رياضية</item>
+        <item>أدوات</item>
+        <item>لعب أطفال وألعاب ترفيهية</item>
+        <item>ساعات</item>
+    </string-array>
+</resources>

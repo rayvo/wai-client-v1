@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@color/result_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/item_separator" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/result_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/result_bar_gray" android:scaleType="center" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top" android:id="@id/result_thumbnail" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/no_thumbnail" android:scaleType="center" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/result_item_text" android:ellipsize="end" android:id="@id/result_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contributed_result_withdrawn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

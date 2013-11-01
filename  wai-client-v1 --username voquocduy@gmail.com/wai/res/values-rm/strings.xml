@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unsupported_language_title">Sustegn da linguas</string>
+    <string name="continue_label">Enavant</string>
+    <string name="current_language_unsupported_message">"Google Goggles n'è betg disponibel en rumantsch."</string>
+</resources>

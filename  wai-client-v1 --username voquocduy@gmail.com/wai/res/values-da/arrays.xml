@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Ingen type</item>
+        <item>Produkt</item>
+        <item>Logo</item>
+        <item>Kunst</item>
+        <item>Virksomhed</item>
+        <item>Vartegn</item>
+        <item>Tekst</item>
+        <item>Andet</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Babytilbehør</item>
+        <item>Drikkevarer</item>
+        <item>Tøj</item>
+        <item>Tøjtilbehør</item>
+        <item>Indretning</item>
+        <item>Elektronik</item>
+        <item>Møbler</item>
+        <item>Håndtasker</item>
+        <item>Smykker</item>
+        <item>Køkken og spisestue</item>
+        <item>Bagage</item>
+        <item>Musikinstrumenter</item>
+        <item>Kontorartikler</item>
+        <item>Planter og blomster</item>
+        <item>Skulpturer</item>
+        <item>Sko</item>
+        <item>Sportsudstyr</item>
+        <item>Værktøj</item>
+        <item>Legetøj og spil</item>
+        <item>Ure</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>ไม่มีประเภท</item>
+        <item>ผลิตภัณฑ์</item>
+        <item>โลโก้</item>
+        <item>ศิลปะ</item>
+        <item>ธุรกิจ</item>
+        <item>จุดสังเกต</item>
+        <item>ข้อความ</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>ของใช้เด็กทารก</item>
+        <item>เครื่องดื่ม</item>
+        <item>เสื้อผ้า</item>
+        <item>วัสดุอุปกรณ์สำหรับตกแต่งเสื้อผ้า</item>
+        <item>การตกแต่ง</item>
+        <item>อุปกรณ์อิเล็กทรอนิกส์</item>
+        <item>เฟอร์นิเจอร์</item>
+        <item>กระเป๋าถือ</item>
+        <item>อัญมณี</item>
+        <item>ห้องครัวและห้องรับประทานอาหาร</item>
+        <item>กระเป๋าเดินทาง</item>
+        <item>เครื่องดนตรี</item>
+        <item>อุปกรณ์สำนักงาน</item>
+        <item>พืชและดอกไม้</item>
+        <item>งานประติมากรรม</item>
+        <item>รองเท้า</item>
+        <item>อุปกรณ์กีฬา</item>
+        <item>เครื่องมือ</item>
+        <item>ของเล่นและเกม</item>
+        <item>นาฬิกาข้อมือ</item>
+    </string-array>
+</resources>

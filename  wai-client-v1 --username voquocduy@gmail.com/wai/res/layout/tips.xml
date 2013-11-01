@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/goggles_works_well_with" style="@style/tipsSubHeader" />
+                <include android:id="@id/good_items_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/good_items_page" />
+            </LinearLayout>
+            <View style="@style/tipsDivider" />
+            <LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/goggles_doesnt_work_well_with" style="@style/tipsSubHeader" />
+                <include android:id="@id/bad_items_row" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bad_items_row" />
+            </LinearLayout>
+            <View android:id="@id/puggle_divider" style="@style/tipsDivider" />
+            <LinearLayout android:orientation="vertical" android:id="@id/puggle_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/try_puggle_header" style="@style/tipsSubHeader" />
+                <LinearLayout style="@style/tipsPictureRow">
+                    <ImageView android:src="@drawable/bag" style="@style/promoSingleImage" />
+                    <TextView android:text="@string/try_puggle" style="@style/promoSingleDescriptionBlack" />
+                </LinearLayout>
+                <TextView android:id="@id/puggle_link" android:text="@string/try_it_now_underline" style="@style/tipsRightLink" />
+            </LinearLayout>
+            <View style="@style/tipsDivider" />
+            <LinearLayout android:orientation="vertical" android:id="@id/translation_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/try_translation_header" style="@style/tipsSubHeader" />
+                <LinearLayout style="@style/tipsPictureRow">
+                    <ImageView android:src="@drawable/translate_promo" style="@style/promoSingleImage" />
+                    <TextView android:text="@string/try_translation" style="@style/promoSingleDescriptionBlack" />
+                </LinearLayout>
+                <TextView android:id="@id/translation_link" android:text="@string/try_it_now_underline" style="@style/tipsRightLink" />
+            </LinearLayout>
+            <View style="@style/tipsDivider" />
+            <LinearLayout android:orientation="vertical" android:id="@id/background_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/try_search_from_camera_header" style="@style/tipsSubHeader" />
+                <LinearLayout style="@style/tipsPictureRow">
+                    <ImageView android:src="@drawable/shutter_promo" style="@style/promoSingleImage" />
+                    <TextView android:text="@string/try_search_from_camera" style="@style/promoSingleDescriptionBlack" />
+                </LinearLayout>
+                <TextView android:id="@id/search_from_camera_link" android:text="@string/set_it_up_underline" style="@style/tipsRightLink" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/lets_start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" style="@style/borderlessButton" />
+</LinearLayout>

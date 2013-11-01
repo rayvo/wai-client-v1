@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/promoContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/goggles_works_well_with" style="@style/promoSubHeader" />
+    <LinearLayout style="@style/promoPictureRow">
+        <LinearLayout style="@style/promoImageLayout">
+            <ImageView android:src="@drawable/books_and_dvds" style="@style/promoImage" />
+            <TextView android:text="@string/books_and_dvds" style="@style/promoImageLabel" />
+        </LinearLayout>
+        <LinearLayout style="@style/promoImageLayout">
+            <ImageView android:src="@drawable/landmarks" style="@style/promoImage" />
+            <TextView android:text="@string/landmarks" style="@style/promoImageLabel" />
+        </LinearLayout>
+        <LinearLayout style="@style/promoImageLayout">
+            <ImageView android:src="@drawable/logos" style="@style/promoImage" />
+            <TextView android:text="@string/logos" style="@style/promoImageLabel" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:text="@string/more_tips_and_tricks" style="@style/promoCallToAction" />
+</LinearLayout>
