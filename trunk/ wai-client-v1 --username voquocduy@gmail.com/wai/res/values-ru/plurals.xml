@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="history_items_description">
+        <item quantity="other">Записей в истории поиска: %1$d</item>
+        <item quantity="one">В истории поиска находится одна запись</item>
+    </plurals>
+    <plurals name="history_items_description_with_query">
+        <item quantity="other">Количество записей в истории поиска, соответствующих запросу %2$s: %1$d.</item>
+        <item quantity="one">Количество записей в истории поиска, соответствующих запросу %1$s: 1.</item>
+    </plurals>
+    <plurals name="results_for_query">
+        <item quantity="other">"Найдено результатов по запросу &amp;lt;b>&amp;lt;font color='white'>'%2$s'&amp;lt;/font>&amp;lt;/b>: %1$d"</item>
+        <item quantity="one">"Результатов по запросу &amp;lt;b>&amp;lt;font color='white'>'%1$s'&amp;lt;/font>&amp;lt;/b>: 1"</item>
+    </plurals>
+    <plurals name="review_count_template">
+        <item quantity="other">Отзывов: %1$d</item>
+        <item quantity="one">Обзоров: %1$d</item>
+    </plurals>
+    <plurals name="background_goggle_images_with_matches">
+        <item quantity="other">Найдено изображений: %1$d</item>
+    </plurals>
+    <plurals name="background_goggle_s_and_n_more_results">
+        <item quantity="other">%1$s и другие результаты (%2$d)</item>
+        <item quantity="one">%1$s и другие результаты (1)</item>
+    </plurals>
+    <plurals name="continuous_n_results_found">
+        <item quantity="other">Найдено результатов: %1$d</item>
+        <item quantity="one">Найден один результат</item>
+    </plurals>
+    <plurals name="n_results_found">
+        <item quantity="other">Найдено результатов: %1$d</item>
+        <item quantity="one">Найден один результат</item>
+    </plurals>
+</resources>

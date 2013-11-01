@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_share" android:id="@id/share" android:title="@string/share_label" />
+    <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/note" android:title="@string/note_label" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/delete" android:title="@string/delete_query" />
+    <item android:icon="@android:drawable/ic_menu_send" android:id="@id/send_feedback" android:title="@string/send_feedback_label" />
+    <item android:icon="@android:drawable/ic_menu_help" android:id="@id/help" android:title="@string/help_label" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/debug_info" android:title="Debug Info" />
+</menu>

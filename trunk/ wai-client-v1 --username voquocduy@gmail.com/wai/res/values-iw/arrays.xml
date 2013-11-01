@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>ללא סוג</item>
+        <item>מוצר</item>
+        <item>לוגו</item>
+        <item>תמונה</item>
+        <item>עסק</item>
+        <item>ציון דרך</item>
+        <item>טקסט</item>
+        <item>אחר</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>אביזרים לתינוקות</item>
+        <item>משקאות</item>
+        <item>הלבשה</item>
+        <item>אביזרי הלבשה</item>
+        <item>עיצוב</item>
+        <item>אלקטרוניקה</item>
+        <item>ריהוט</item>
+        <item>תיקי יד</item>
+        <item>תכשיטים</item>
+        <item>מטבח ופינות אוכל</item>
+        <item>תיקים ומזוודות</item>
+        <item>כלי נגינה</item>
+        <item>ציוד משרדי</item>
+        <item>צמחים ופרחים</item>
+        <item>פסלים</item>
+        <item>נעליים</item>
+        <item>ציוד ספורט</item>
+        <item>כלים</item>
+        <item>צעצועים ומשחקים</item>
+        <item>שעונים</item>
+    </string-array>
+</resources>

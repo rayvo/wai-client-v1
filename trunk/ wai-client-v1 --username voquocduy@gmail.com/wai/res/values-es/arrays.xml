@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Ningún tipo especificado</item>
+        <item>Producto</item>
+        <item>Logotipo</item>
+        <item>Obras de arte</item>
+        <item>Empresas</item>
+        <item>Monumentos</item>
+        <item>Texto</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Accesorios para bebés</item>
+        <item>Bebidas</item>
+        <item>Ropa</item>
+        <item>Accesorios</item>
+        <item>Decoración</item>
+        <item>Aparatos electrónicos</item>
+        <item>Mobiliario</item>
+        <item>Bolsos</item>
+        <item>Joyas</item>
+        <item>Cocina y comedor</item>
+        <item>Equipaje</item>
+        <item>Instrumentos musicales</item>
+        <item>Material de oficina</item>
+        <item>Plantas y flores</item>
+        <item>Esculturas</item>
+        <item>Calzado</item>
+        <item>Material deportivo</item>
+        <item>Instrumentos y herramientas</item>
+        <item>Juegos y juguetes</item>
+        <item>Relojes</item>
+    </string-array>
+</resources>

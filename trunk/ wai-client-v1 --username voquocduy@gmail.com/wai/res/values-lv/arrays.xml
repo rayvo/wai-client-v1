@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Neviens tips</item>
+        <item>Produkts</item>
+        <item>Logotips</item>
+        <item>Māksla</item>
+        <item>Uzņēmums</item>
+        <item>Orientieris</item>
+        <item>Teksts</item>
+        <item>Cits</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Bērnu aksesuāri</item>
+        <item>Dzērieni</item>
+        <item>Apģērbs</item>
+        <item>Apģērbu aksesuāri</item>
+        <item>Dekoratīvā apdare</item>
+        <item>Elektronika</item>
+        <item>Mēbeles</item>
+        <item>Rokassomas</item>
+        <item>Rotaslietas</item>
+        <item>Virtuve un ēdamistaba</item>
+        <item>Bagāža</item>
+        <item>Mūzikas instrumenti</item>
+        <item>Biroja preces</item>
+        <item>Augi un ziedi</item>
+        <item>Skulptūras</item>
+        <item>Apavi</item>
+        <item>Sporta aprīkojums</item>
+        <item>Darbarīki</item>
+        <item>Rotaļlietas un spēles</item>
+        <item>Pulksteņi</item>
+    </string-array>
+</resources>

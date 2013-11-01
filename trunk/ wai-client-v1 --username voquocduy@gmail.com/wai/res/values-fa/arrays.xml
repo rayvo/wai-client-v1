@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>بدون نوع</item>
+        <item>محصول</item>
+        <item>لوگو</item>
+        <item>هنر</item>
+        <item>کسب و کار</item>
+        <item>علامت مشخصه</item>
+        <item>نوشتار</item>
+        <item>سایر موارد</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>لوازم نوزاد</item>
+        <item>نوشیدنی‌ها</item>
+        <item>پوشاک</item>
+        <item>کیف و کفش و لوازم جانبی</item>
+        <item>دکوراسیون</item>
+        <item>دستگاه‌های الکترونیکی</item>
+        <item>مبلمان</item>
+        <item>کیف‌های دستی</item>
+        <item>طلا و جواهر</item>
+        <item>آشپزخانه و ناهارخوری</item>
+        <item>ساک و چمدان</item>
+        <item>آلات موسیقی</item>
+        <item>تجهیزات اداری</item>
+        <item>گیاهان و گل‌ها</item>
+        <item>مجسمه‌ها</item>
+        <item>کفش</item>
+        <item>تجهیزات ورزشی</item>
+        <item>ابزارها</item>
+        <item>اسباب‌بازی‌ها و بازی‌ها</item>
+        <item>ساعت</item>
+    </string-array>
+</resources>

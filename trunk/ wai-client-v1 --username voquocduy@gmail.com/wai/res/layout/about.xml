@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/about_version" android:background="#ffe8ecf9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/help_header" style="@style/aboutHeader" />
+            <Button android:id="@id/about_video_button" android:text="@string/tips_and_tricks" style="@style/aboutLinkButton" />
+            <Button android:id="@id/about_help_button" android:text="@string/help" style="@style/aboutLinkButton" />
+            <Button android:id="@id/send_feedback_button" android:text="@string/send_feedback" style="@style/aboutLinkButton" />
+            <TextView android:text="@string/legal_header" style="@style/aboutHeader" />
+            <Button android:id="@id/about_tos_button" android:text="@string/tos" style="@style/aboutLinkButton" />
+            <Button android:id="@id/about_privacy_button" android:text="@string/privacy_policy" style="@style/aboutLinkButton" />
+            <Button android:id="@id/content_policy_button" android:text="@string/user_content_policy" style="@style/aboutLinkButton" />
+            <Button android:id="@id/legal_notices_button" android:text="@string/legal_notices" style="@style/aboutLinkButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

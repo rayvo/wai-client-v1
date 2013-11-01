@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.unveil.ui.puggle.PuggleResultsView android:id="@id/puggle_results_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="15.0dip" unveil:idealNumCols="5" unveil:maxColWidth="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:unveil="http://schemas.android.com/apk/res/com.google.android.apps.unveil" />

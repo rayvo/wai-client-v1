@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/puggle_product_image" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" />
+        <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:id="@id/puggle_product_brand" android:background="#88000000" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/roboto_regular" android:id="@id/puggle_product_price" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

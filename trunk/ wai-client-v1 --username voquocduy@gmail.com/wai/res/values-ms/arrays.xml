@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Tiada Jenis</item>
+        <item>Produk</item>
+        <item>Logo</item>
+        <item>Seni</item>
+        <item>Perniagaan</item>
+        <item>Mercu tanda</item>
+        <item>Teks</item>
+        <item>Lain</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Aksesori Bayi</item>
+        <item>Minuman</item>
+        <item>Pakaian</item>
+        <item>Aksesori Pakaian</item>
+        <item>Dekor</item>
+        <item>Elektronik</item>
+        <item>Perabot</item>
+        <item>Beg Tangan</item>
+        <item>Barang Kemas</item>
+        <item>Dapur dan Santapan</item>
+        <item>Bagasi</item>
+        <item>Alat Muzik</item>
+        <item>Peralatan Pejabat</item>
+        <item>Tumbuh-tumbuhan dan Bunga</item>
+        <item>Arca</item>
+        <item>Kasut</item>
+        <item>Peralatan Sukan</item>
+        <item>Alat</item>
+        <item>Mainan dan Permainan</item>
+        <item>Jam</item>
+    </string-array>
+</resources>

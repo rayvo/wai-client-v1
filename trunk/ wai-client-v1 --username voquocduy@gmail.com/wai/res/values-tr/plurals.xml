@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="history_items_description">
+        <item quantity="other">Arama geçmişinizde %1$d giriş var</item>
+        <item quantity="one">Arama geçmişinizde bir giriş var</item>
+    </plurals>
+    <plurals name="history_items_description_with_query">
+        <item quantity="other">Arama geçmişinizde %2$s sorgusuyla eşleşen %1$d giriş var</item>
+        <item quantity="one">Arama geçmişinizde %1$s sorgusuyla eşleşen 1 giriş var.</item>
+    </plurals>
+    <plurals name="results_for_query">
+        <item quantity="other">"&amp;lt;b>&amp;lt;font color='white'>'%2$s'&amp;lt;/font>&amp;lt;/b> için %1$d sonuç"</item>
+        <item quantity="one">"&amp;lt;b>&amp;lt;font color='white'>'%1$s'&amp;lt;/font>&amp;lt;/b> için bir sonuç"</item>
+    </plurals>
+    <plurals name="review_count_template">
+        <item quantity="other">%1$d yorum</item>
+        <item quantity="one">%1$d yorum</item>
+    </plurals>
+    <plurals name="background_goggle_images_with_matches">
+        <item quantity="other">Eşleşme bulunan %1$d resim</item>
+    </plurals>
+    <plurals name="background_goggle_s_and_n_more_results">
+        <item quantity="other">%1$s ve %2$d sonuç daha</item>
+        <item quantity="one">%1$s ve bir sonuç daha</item>
+    </plurals>
+    <plurals name="continuous_n_results_found">
+        <item quantity="other">%1$d sonuç bulundu</item>
+        <item quantity="one">Bir sonuç bulundu</item>
+    </plurals>
+    <plurals name="n_results_found">
+        <item quantity="other">%1$d sonuç bulundu</item>
+        <item quantity="one">Bir sonuç bulundu</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:unveil="http://schemas.android.com/apk/res/com.google.android.apps.unveil">
+    <LinearLayout android:orientation="vertical" android:id="@id/result_stack_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/contribution_divider" android:background="@color/item_separator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@id/no_matches_text" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nothing_recognized" style="@style/drawerText_Large" />
+    <TextView android:id="@id/category_matches" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/similar_product_category" style="@style/drawerText_Medium" />
+    <com.google.android.apps.unveil.ui.result.swipe.SwipeableResultsView android:id="@id/categories" android:padding="1.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" unveil:horizontalSpacing="5.0dip" unveil:verticalSpacing="5.0dip" unveil:maxChildWidth="150.0dip" unveil:numChildrenFullyVisible="3" unveil:numRows="1" />
+    <TextView android:id="@id/similar_images_matches" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/similar_images" style="@style/drawerText_Medium" />
+    <com.google.android.apps.unveil.ui.result.swipe.SwipeableResultsView android:id="@id/similar_images" android:padding="1.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" unveil:horizontalSpacing="5.0dip" unveil:verticalSpacing="5.0dip" unveil:maxChildWidth="150.0dip" unveil:numChildrenFullyVisible="3" unveil:numRows="1" />
+    <include layout="@layout/send_to_google_button" />
+</LinearLayout>

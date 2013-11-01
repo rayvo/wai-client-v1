@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ff000000" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abuse_header" />
+            <TextView android:textColor="#ff000000" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abuse_comments_header" />
+            <EditText android:id="@id/comments" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="1000" android:inputType="textMultiLine" />
+            <TextView android:textColor="#ff000000" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abuse_reason_request" />
+            <RadioGroup android:id="@id/reason" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/abuse_spam" android:tag="SPAM" android:checked="true" android:text="@string/abuse_spam" style="@style/reportAbuseReason" />
+                <RadioButton android:id="@id/abuse_copyright" android:tag="COPYRIGHT" android:text="@string/abuse_copyright" style="@style/reportAbuseReason" />
+                <RadioButton android:id="@id/abuse_defamation" android:tag="DEFAMATION" android:text="@string/abuse_defamation" style="@style/reportAbuseReason" />
+                <RadioButton android:id="@id/abuse_illegal" android:tag="ILLEGAL_CONTENT" android:text="@string/abuse_illegal" style="@style/reportAbuseReason" />
+                <RadioButton android:id="@id/abuse_hate" android:tag="HATE" android:text="@string/abuse_hate" style="@style/reportAbuseReason" />
+                <RadioButton android:id="@id/abuse_sexually_explicit" android:tag="SEXUALLY_EXPLICIT" android:text="@string/abuse_sexually_explicit" style="@style/reportAbuseReason" />
+                <RadioButton android:id="@id/abuse_other" android:tag="OTHER" android:text="@string/abuse_other" style="@style/reportAbuseReason" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:background="#ffdfdfdf" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cancel_button" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+        <Button android:id="@id/submit_button" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/abuse_submit" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

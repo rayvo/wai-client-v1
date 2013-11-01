@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Ej angivet</item>
+        <item>Produkt</item>
+        <item>Logotyp</item>
+        <item>Konst</item>
+        <item>Företag</item>
+        <item>Landmärke</item>
+        <item>Text</item>
+        <item>Annat</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Babytillbehör</item>
+        <item>Drycker</item>
+        <item>Kläder</item>
+        <item>Accessoarer</item>
+        <item>Inredning</item>
+        <item>Elektronik</item>
+        <item>Möbler</item>
+        <item>Handväskor</item>
+        <item>Smycken</item>
+        <item>Kök och matsal</item>
+        <item>Bagage</item>
+        <item>Musikinstrument</item>
+        <item>Kontorsmaterial</item>
+        <item>Växter och blommor</item>
+        <item>Skulpturer</item>
+        <item>Skor</item>
+        <item>Sportutrustning</item>
+        <item>Verktyg</item>
+        <item>Leksaker och spel</item>
+        <item>Klockor</item>
+    </string-array>
+</resources>

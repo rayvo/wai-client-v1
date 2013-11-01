@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Δεν έχει καθοριστεί τύπος</item>
+        <item>Προϊόν</item>
+        <item>Λογότυπο</item>
+        <item>Τέχνη</item>
+        <item>Επιχείρηση</item>
+        <item>Αξιοθέατο</item>
+        <item>Κείμενο</item>
+        <item>Άλλο</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Μωρουδιακά</item>
+        <item>Ποτά</item>
+        <item>Ρούχα</item>
+        <item>Αξεσουάρ ρούχων</item>
+        <item>Διακοσμητικά είδη</item>
+        <item>Ηλεκτρονικά προϊόντα</item>
+        <item>Έπιπλα</item>
+        <item>Τσάντες</item>
+        <item>Κοσμήματα</item>
+        <item>Είδη κουζίνας</item>
+        <item>Αποσκευές</item>
+        <item>Μουσικά όργανα</item>
+        <item>Είδη γραφείου</item>
+        <item>Φυτά και άνθη</item>
+        <item>Γλυπτά</item>
+        <item>Παπούτσια</item>
+        <item>Αθλητικός εξοπλισμός</item>
+        <item>Εργαλεία</item>
+        <item>Παιχνίδια</item>
+        <item>Ρολόγια</item>
+    </string-array>
+</resources>

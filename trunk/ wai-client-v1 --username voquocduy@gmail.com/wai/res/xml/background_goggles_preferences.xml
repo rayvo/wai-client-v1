@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/background_goggle_detailed_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/background_goggle_preference_title" android:key="@string/background_goggle_key" android:summary="@string/background_goggle_preference_summary" android:defaultValue="false" />
+    <ListPreference android:title="@string/background_goggle_mobile_connection_preference_title" android:key="@string/background_goggle_mobile_connection_key" android:dependency="@string/background_goggle_key" android:defaultValue="@string/wifi_and_mobile_networks_option_value" />
+    <CheckBoxPreference android:title="@string/background_goggle_roaming_preference_title" android:key="@string/background_goggle_roaming_key" android:summary="@string/background_goggle_roaming_preference_summary" />
+    <CheckBoxPreference android:title="@string/background_goggle_silent_preference_title" android:key="@string/background_goggle_silent_key" android:summary="@string/background_goggle_silent_preference_summary" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_add" android:id="@id/submitted_results" android:title="@string/sent_to_goggles" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/settings" android:title="@string/preferences_label" />
+    <item android:icon="@android:drawable/ic_menu_send" android:id="@id/send_feedback" android:title="@string/send_feedback_label" />
+    <item android:icon="@android:drawable/ic_menu_info_details" android:id="@id/tips" android:title="@string/tips_title" />
+    <item android:icon="@android:drawable/ic_menu_help" android:id="@id/help" android:title="@string/help_label" />
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Brez vrste</item>
+        <item>Izdelek</item>
+        <item>Logotip</item>
+        <item>Umetnost</item>
+        <item>Podjetje</item>
+        <item>Znamenitost</item>
+        <item>Besedilo</item>
+        <item>Drugo</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Otroška oprema</item>
+        <item>Pijače</item>
+        <item>Oblačila</item>
+        <item>Modni dodatki</item>
+        <item>Dekoracija</item>
+        <item>Elektronika</item>
+        <item>Pohištvo</item>
+        <item>Torbice</item>
+        <item>Nakit</item>
+        <item>Kuhinja in jedilnica</item>
+        <item>Potovalni kovčki</item>
+        <item>Glasbila</item>
+        <item>Pisarniške potrebščine</item>
+        <item>Rastline in cvetje</item>
+        <item>Kipi</item>
+        <item>Čevlji</item>
+        <item>Športna oprema</item>
+        <item>Orodja</item>
+        <item>Igrače in igre</item>
+        <item>Ročne ure</item>
+    </string-array>
+</resources>

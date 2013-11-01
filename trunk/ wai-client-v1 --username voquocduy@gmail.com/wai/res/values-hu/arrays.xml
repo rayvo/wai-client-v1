@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Nincs típus</item>
+        <item>Termék</item>
+        <item>Embléma</item>
+        <item>Művészet</item>
+        <item>Üzleti</item>
+        <item>Nevezetesség</item>
+        <item>Szöveg</item>
+        <item>Egyéb</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Babafelszerelések</item>
+        <item>Italok</item>
+        <item>Ruházkodás</item>
+        <item>Ruházati kiegészítők</item>
+        <item>Dekorációs kellékek</item>
+        <item>Elektronika</item>
+        <item>Bútorok</item>
+        <item>Kézitáskák</item>
+        <item>Ékszerek</item>
+        <item>Konyhai és étkezési eszközök</item>
+        <item>Poggyász</item>
+        <item>Hangszerek</item>
+        <item>Irodaszerek</item>
+        <item>Növények és virágok</item>
+        <item>Szobrok</item>
+        <item>Cipők</item>
+        <item>Sportfelszerelések</item>
+        <item>Eszközök</item>
+        <item>Játékok</item>
+        <item>Órák</item>
+    </string-array>
+</resources>

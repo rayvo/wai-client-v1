@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Cap tipus</item>
+        <item>Producte</item>
+        <item>Logotip</item>
+        <item>Art</item>
+        <item>Empresa</item>
+        <item>Punt de referència</item>
+        <item>Text</item>
+        <item>Altres</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Accessoris per a nadons</item>
+        <item>Begudes</item>
+        <item>Roba</item>
+        <item>Accessoris de moda</item>
+        <item>Decoració</item>
+        <item>Electrònica</item>
+        <item>Mobiliari</item>
+        <item>Motxilles</item>
+        <item>Joies</item>
+        <item>Cuines i menjadors</item>
+        <item>Equipatge</item>
+        <item>Instruments musicals</item>
+        <item>Subministrament de material d’oficina</item>
+        <item>Plantes i flors</item>
+        <item>Escultures</item>
+        <item>Sabates</item>
+        <item>"Equipament d'esports"</item>
+        <item>Eines</item>
+        <item>Jocs i joguines</item>
+        <item>Rellotges</item>
+    </string-array>
+</resources>

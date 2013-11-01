@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Tür Yok</item>
+        <item>Ürünler</item>
+        <item>Logo</item>
+        <item>Sanat</item>
+        <item>İşletme</item>
+        <item>Önemli Nokta</item>
+        <item>Metin</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Bebek Aksesuarları</item>
+        <item>İçecekler</item>
+        <item>Giyim</item>
+        <item>Giyim Aksesuarları</item>
+        <item>Dekorasyon</item>
+        <item>Elektronik</item>
+        <item>Mobilyalar</item>
+        <item>El Çantaları</item>
+        <item>Mücevher</item>
+        <item>Mutfak ve Yemek Odası</item>
+        <item>Bavul</item>
+        <item>Müzik Aletleri</item>
+        <item>Ofis Malzemeleri</item>
+        <item>Bitkiler ve Çiçekler</item>
+        <item>Heykeller</item>
+        <item>Ayakkabılar</item>
+        <item>Spor Ekipmanları</item>
+        <item>Aletler</item>
+        <item>Oyuncaklar ve Oyunlar</item>
+        <item>Saatler</item>
+    </string-array>
+</resources>

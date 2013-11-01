@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">Funga</string>
+    <string name="unsupported_language_title">Usaidizi wa Lugha</string>
+    <string name="continue_label">Endelea</string>
+    <string name="current_language_unsupported_message">Google Goggles bado haijatafsiriwa kwa Kiswahili.</string>
+</resources>

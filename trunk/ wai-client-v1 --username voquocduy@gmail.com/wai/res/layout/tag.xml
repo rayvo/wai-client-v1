@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/submit_a_tag" />
+            <TextView android:id="@id/privacy_notice" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tagging_name" />
+                <TextView android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/required" />
+            </LinearLayout>
+            <EditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:hint="@string/name_hint" android:maxLength="1000" android:inputType="textCapSentences">
+                <requestFocus />
+            </EditText>
+            <LinearLayout android:orientation="horizontal" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tagging_type" />
+                <TextView android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optional" />
+            </LinearLayout>
+            <Spinner android:entries="@array/tagging_types" android:id="@id/type_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/other_type_label" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tagging_other_type" />
+            <EditText android:id="@id/other_type" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="1000" android:inputType="text" />
+            <LinearLayout android:orientation="horizontal" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tagging_description_title" />
+                <TextView android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optional" />
+            </LinearLayout>
+            <EditText android:gravity="top" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/tag_examples" android:minLines="6" android:maxLength="1000" android:inputType="textCapSentences|textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@color/borderless_button_divider" android:paddingTop="4.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" style="@style/borderlessButton" />
+        <View android:layout_gravity="center_vertical" android:background="@color/borderless_button_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <Button android:id="@id/submit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit" android:layout_weight="1.0" style="@style/borderlessButton" />
+    </LinearLayout>
+</LinearLayout>

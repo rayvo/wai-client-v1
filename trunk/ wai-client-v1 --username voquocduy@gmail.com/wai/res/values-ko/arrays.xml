@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>유형 없음</item>
+        <item>상품</item>
+        <item>로고</item>
+        <item>예술</item>
+        <item>업체</item>
+        <item>랜드마크</item>
+        <item>텍스트</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>영유아 액세서리</item>
+        <item>음료</item>
+        <item>의류</item>
+        <item>의류 액세서리</item>
+        <item>데코</item>
+        <item>전자제품</item>
+        <item>가구</item>
+        <item>핸드백</item>
+        <item>보석</item>
+        <item>주방용품</item>
+        <item>여행가방</item>
+        <item>악기</item>
+        <item>사무용품</item>
+        <item>식물/화훼</item>
+        <item>조각작품</item>
+        <item>신발</item>
+        <item>스포츠용품</item>
+        <item>도구</item>
+        <item>장난감/게임</item>
+        <item>손목시계</item>
+    </string-array>
+</resources>

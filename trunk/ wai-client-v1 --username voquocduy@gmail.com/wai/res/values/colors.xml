@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gf_header_background">#ff828282</color>
+    <color name="gf_shadow">#cc222222</color>
+    <color name="gf_foreground_content">#ffffffff</color>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
+    <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</color>
+    <color name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</color>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="result_item_background">#aa000000</color>
+    <color name="result_item_text">#ffffffff</color>
+    <color name="translate_source_text">#ff999999</color>
+    <color name="item_separator">#ee555555</color>
+    <color name="bounding_box_dimming">#88000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="history_list_text">#ffffffff</color>
+    <color name="saved_query_background">#ff1f1f1f</color>
+    <color name="attribution_background">#aa000000</color>
+    <color name="attribution_divider">#ff333333</color>
+    <color name="dark_background">#ff282828</color>
+    <color name="light_blue_background">#ffe8ecf9</color>
+    <color name="light_gray_background">#ff444444</color>
+    <color name="promotion_text">#ffffffff</color>
+    <color name="link">#ff1155cc</color>
+    <color name="roboto_blue">#ff1155cc</color>
+    <color name="roboto_regular">#ff777777</color>
+    <color name="white_smoke">#fff5f5f5</color>
+    <color name="normal_text">#ff000000</color>
+    <color name="disabled_text">#ffc0c0c0</color>
+    <color name="borderless_button_divider">#4cffffff</color>
+</resources>

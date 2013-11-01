@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Geen type</item>
+        <item>Product</item>
+        <item>Logo</item>
+        <item>Kunst</item>
+        <item>Bedrijf</item>
+        <item>Monument</item>
+        <item>Tekst</item>
+        <item>Overig</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Babyartikelen</item>
+        <item>Drinken</item>
+        <item>Kleding</item>
+        <item>Kledingaccessoires</item>
+        <item>Decoratie</item>
+        <item>Elektronica</item>
+        <item>Meubelen</item>
+        <item>Handtassen</item>
+        <item>Sieraden</item>
+        <item>Keuken en eetkamer</item>
+        <item>Bagage</item>
+        <item>Muziekinstrumenten</item>
+        <item>Kantoorbenodigdheden</item>
+        <item>Planten en bloemen</item>
+        <item>Beelden</item>
+        <item>Schoenen</item>
+        <item>Sportbenodigdheden</item>
+        <item>Gereedschappen</item>
+        <item>Speelgoed en games</item>
+        <item>Horloges</item>
+    </string-array>
+</resources>

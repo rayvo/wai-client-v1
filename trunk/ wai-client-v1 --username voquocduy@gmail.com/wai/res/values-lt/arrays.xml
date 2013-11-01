@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Tipas nenurodytas</item>
+        <item>Produktas</item>
+        <item>Logotipas</item>
+        <item>Menas</item>
+        <item>Verslas</item>
+        <item>Orientyras</item>
+        <item>Tekstas</item>
+        <item>Kita</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Priedai kūdikiams</item>
+        <item>Gėrimai</item>
+        <item>Apranga</item>
+        <item>Drabužių priedai</item>
+        <item>Dekoras</item>
+        <item>Elektronika</item>
+        <item>Baldai</item>
+        <item>Rankinės</item>
+        <item>Juvelyriniai dirbiniai</item>
+        <item>Virtuvė ir valgomasis</item>
+        <item>Bagažas</item>
+        <item>Muzikos instrumentai</item>
+        <item>Biuro įranga</item>
+        <item>Augalai ir gėlės</item>
+        <item>Skulptūros</item>
+        <item>Batai</item>
+        <item>Sporto įranga</item>
+        <item>Įrankiai</item>
+        <item>Žaislai ir žaidimai</item>
+        <item>Laikrodžiai</item>
+    </string-array>
+</resources>

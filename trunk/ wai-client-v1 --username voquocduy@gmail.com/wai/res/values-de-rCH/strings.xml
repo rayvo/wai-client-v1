@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_translated">Schließen</string>
+    <string name="unsupported_language_title">Sprachunterstützung</string>
+    <string name="continue_label">Continue</string>
+    <string name="current_language_unsupported_message">Google Goggles wurde noch nicht ins Deutsche übersetzt.</string>
+</resources>

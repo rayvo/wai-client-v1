@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/promoContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/try_search_from_camera_header" style="@style/promoSubHeader" />
+    <LinearLayout style="@style/promoPictureRow">
+        <ImageView android:src="@drawable/shutter_promo" style="@style/promoSingleImage" />
+        <TextView android:text="@string/try_search_from_camera" style="@style/promoSingleDescription" />
+    </LinearLayout>
+    <TextView android:text="@string/more_tips_and_tricks" style="@style/promoCallToAction" />
+</LinearLayout>

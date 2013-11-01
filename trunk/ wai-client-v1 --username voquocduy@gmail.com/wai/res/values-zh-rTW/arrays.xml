@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>未指定類型</item>
+        <item>產品</item>
+        <item>標誌</item>
+        <item>藝術</item>
+        <item>商家</item>
+        <item>地標</item>
+        <item>文字</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>嬰兒用品</item>
+        <item>飲料</item>
+        <item>服飾</item>
+        <item>服飾配件</item>
+        <item>裝潢飾品</item>
+        <item>電子裝置</item>
+        <item>家具</item>
+        <item>手提包</item>
+        <item>珠寶</item>
+        <item>廚房和餐廳</item>
+        <item>行李箱</item>
+        <item>樂器</item>
+        <item>辦公用品</item>
+        <item>植物和花卉</item>
+        <item>雕像</item>
+        <item>鞋類</item>
+        <item>運動器材</item>
+        <item>工具</item>
+        <item>玩具和遊戲</item>
+        <item>錶類</item>
+    </string-array>
+</resources>

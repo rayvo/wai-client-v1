@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Без типу</item>
+        <item>Продукт</item>
+        <item>Логотип</item>
+        <item>Мистецтво</item>
+        <item>Компанія</item>
+        <item>Визначне місце</item>
+        <item>Текст</item>
+        <item>Інше</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Аксесуари для немовлят</item>
+        <item>Напої</item>
+        <item>Одяг</item>
+        <item>Аксесуари для одягу</item>
+        <item>Оздоблення</item>
+        <item>Електроніка</item>
+        <item>Меблі</item>
+        <item>Сумки</item>
+        <item>Ювелірні вироби</item>
+        <item>Кухонне та столове приладдя</item>
+        <item>Валізи</item>
+        <item>Музичні інструменти</item>
+        <item>Канцелярські товари</item>
+        <item>Рослини та квіти</item>
+        <item>Скульптури</item>
+        <item>Взуття</item>
+        <item>Спортивне обладнання</item>
+        <item>Інструменти</item>
+        <item>Іграшки й ігри</item>
+        <item>Годинники</item>
+    </string-array>
+</resources>

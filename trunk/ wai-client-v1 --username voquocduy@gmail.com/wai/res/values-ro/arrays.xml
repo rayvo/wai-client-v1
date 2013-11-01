@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Niciun tip</item>
+        <item>Produs</item>
+        <item>Siglă</item>
+        <item>Artă</item>
+        <item>Companii</item>
+        <item>Reper</item>
+        <item>Text</item>
+        <item>Altele</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Accesorii pentru copii</item>
+        <item>Băuturi</item>
+        <item>Îmbrăcăminte</item>
+        <item>Accesorii pentru îmbrăcăminte</item>
+        <item>Decoraţiuni</item>
+        <item>Electronice</item>
+        <item>Mobilier</item>
+        <item>Genţi de mână</item>
+        <item>Bijuterii</item>
+        <item>Bucătărie şi luarea mesei</item>
+        <item>Valize</item>
+        <item>Instrumente muzicale</item>
+        <item>Articole de birou</item>
+        <item>Plante şi flori</item>
+        <item>Sculpturi</item>
+        <item>Pantofi</item>
+        <item>Echipament sportiv</item>
+        <item>Unelte</item>
+        <item>Jucării şi jocuri</item>
+        <item>Ceasuri de mână</item>
+    </string-array>
+</resources>

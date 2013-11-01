@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Tüüp puudub</item>
+        <item>Toode</item>
+        <item>Logo</item>
+        <item>Kunst</item>
+        <item>Ettevõte</item>
+        <item>Maamärk</item>
+        <item>Tekst</item>
+        <item>Muu</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Beebitarbed</item>
+        <item>Joogid</item>
+        <item>Riided</item>
+        <item>Riietuse aksessuaarid</item>
+        <item>Interjöör</item>
+        <item>Elektroonika</item>
+        <item>Mööbel</item>
+        <item>Käekotid</item>
+        <item>Ehted</item>
+        <item>Köök ja söögituba</item>
+        <item>Kohvrid ja kotid</item>
+        <item>Muusikariistad</item>
+        <item>Kontoritarbed</item>
+        <item>Taimed ja lilled</item>
+        <item>Skulptuurid</item>
+        <item>Kingad</item>
+        <item>Spordivahendid</item>
+        <item>Tööriistad</item>
+        <item>Mänguasjad ja mängud</item>
+        <item>Kellad</item>
+    </string-array>
+</resources>

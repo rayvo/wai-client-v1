@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Без тип</item>
+        <item>Продукт</item>
+        <item>Лого</item>
+        <item>Изкуство</item>
+        <item>Фирма</item>
+        <item>Забележителност</item>
+        <item>Текст</item>
+        <item>Друго</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Аксесоари за бебета</item>
+        <item>Напитки</item>
+        <item>Облекло</item>
+        <item>Аксесоари към облеклото</item>
+        <item>Украса</item>
+        <item>Електроника</item>
+        <item>Мебели</item>
+        <item>Ръчни чанти</item>
+        <item>Бижута</item>
+        <item>Кухня и трапезария</item>
+        <item>Багаж</item>
+        <item>Музикални инструменти</item>
+        <item>Канцеларски стоки</item>
+        <item>Растения и цветя</item>
+        <item>Скулптури</item>
+        <item>Обувки</item>
+        <item>Сп. екипировка</item>
+        <item>Инструменти</item>
+        <item>Играчки и игри</item>
+        <item>Часовници</item>
+    </string-array>
+</resources>

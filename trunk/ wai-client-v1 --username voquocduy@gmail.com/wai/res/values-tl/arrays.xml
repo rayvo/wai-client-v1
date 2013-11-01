@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>Walang Uri</item>
+        <item>Produkto</item>
+        <item>Logo</item>
+        <item>Sining</item>
+        <item>Negosyo</item>
+        <item>Landmark</item>
+        <item>Teksto</item>
+        <item>Iba pa</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>Mga Kagamitan ng Sanggol</item>
+        <item>Mga Inumin</item>
+        <item>Damit</item>
+        <item>Mga Accessory sa Pananamit</item>
+        <item>Palamuti</item>
+        <item>Electronics</item>
+        <item>Kasangkapan</item>
+        <item>Mga Handbag</item>
+        <item>Alahas</item>
+        <item>Kusina at Hapagkainan</item>
+        <item>Bagahe</item>
+        <item>Mga Instrumentong Pangmusika</item>
+        <item>Mga Kagamitan sa Opisina</item>
+        <item>Mga Halaman at Bulaklak</item>
+        <item>Mga Paglililok</item>
+        <item>Mga Sapatos</item>
+        <item>Kagamitang Pang-sports</item>
+        <item>Mga Tool</item>
+        <item>Mga Laruan at Laro</item>
+        <item>Mga Relo</item>
+    </string-array>
+</resources>

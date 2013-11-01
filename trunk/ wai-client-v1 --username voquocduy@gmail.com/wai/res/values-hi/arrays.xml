@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tagging_types">
+        <item>कोई प्रकार नहीं</item>
+        <item>उत्पाद</item>
+        <item>लोगो</item>
+        <item>कला</item>
+        <item>व्यवसाय</item>
+        <item>स्थानचिह्न</item>
+        <item>टेक्‍स्‍ट</item>
+        <item>अन्‍य</item>
+    </string-array>
+    <string-array name="top_level_product_categories">
+        <item>छोटे सहायक उपकरण</item>
+        <item>पेय पदार्थ</item>
+        <item>वस्‍त्र</item>
+        <item>वस्त्र सहायक सामग्रियां</item>
+        <item>सजावट</item>
+        <item>इलेक्ट्रॉनिक</item>
+        <item>फ़र्नीचर</item>
+        <item>हैंडबैग</item>
+        <item>आभूषण</item>
+        <item>रसोई और भोजन</item>
+        <item>सामान</item>
+        <item>वाद्ययंत्र</item>
+        <item>कार्यालय आपूर्तियां</item>
+        <item>पौधे और फूल</item>
+        <item>मूर्तियां</item>
+        <item>जूते</item>
+        <item>खेल उपकरण</item>
+        <item>टूल</item>
+        <item>खिलौने और गेम</item>
+        <item>घड़ियां</item>
+    </string-array>
+</resources>

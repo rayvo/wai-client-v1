@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/capture_controls" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:unveil="http://schemas.android.com/apk/res/com.google.android.apps.unveil">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/capture_buttons" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <FrameLayout android:id="@id/crop_button_wrapper" android:background="@drawable/capture_control_background" android:layout_width="wrap_content" android:layout_height="0.0px" android:layout_weight="1.0">
+            <com.google.android.apps.unveil.ui.rotating.RotatingImageView android:layout_gravity="center" android:id="@id/crop_button" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/crop" android:contentDescription=" " unveil:touch_padding="10.0dip" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/shutter_button_layout" android:background="@drawable/capture_control_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="0.0px" android:layout_weight="1.0" android:contentDescription="@string/shutter">
+            <com.google.android.apps.unveil.ui.rotating.RotatingImageView android:layout_gravity="center" android:id="@id/shutter_button_dark" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/shutter" unveil:touch_padding="10.0dip" />
+            <requestFocus />
+        </FrameLayout>
+        <FrameLayout android:id="@id/flash_button_wrapper" android:background="@drawable/capture_control_background" android:layout_width="wrap_content" android:layout_height="0.0px" android:layout_weight="1.0">
+            <com.google.android.apps.unveil.ui.rotating.RotatingImageView android:layout_gravity="center" android:id="@id/flash_button" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/torch" android:contentDescription="@string/enable_torch" unveil:touch_padding="10.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
